@@ -13,7 +13,7 @@ import {
 import '../styles/components/technologiescontainer.sass'
 
 const technologiescontainer = [
-    { id: "html", name: "HTML5", icon: <DiHtml5 />, knowledge: "conhecimento sobre HTML5", comment: "Ampla experiência em HTML5, a linguagem fundamental para a estruturação e organização do conteúdo em páginas da web." },
+    { id: "html", name: "HTML5", icon: <DiHtml5 />, knowledge: "conhecimento sobre HTML5", comment: "Ampla experiência em HTML5, um pouco mais de 1 ano e 6 meses de experiência com a linguagem fundamental para a estruturação e organização do conteúdo em páginas da web." },
     { id: "css", name: "CSS3", icon: <DiCss3 />, knowledge: "conhecimento sobre CSS3", comment: "Conhecimento sólido em CSS3, permitindo-me criar estilos atraentes e responsivos para melhorar a aparência visual dos elementos em sites e aplicações web." },
     { id: "js", name: "JavaScript", icon: <DiJavascript1 />, knowledge: "conhecimento sobre JavaScript", comment: "Proficiente em JavaScript, uma linguagem de programação essencial para adicionar interatividade e funcionalidade dinâmica aos sites, permitindo uma experiência de usuário aprimorada." },
     { id: "node", name: "Node.js", icon: <DiNodejsSmall />, knowledge: "conhecimento sobre Node.js", comment: "Sólido conhecimento em Node.js, uma plataforma JavaScript que me permite desenvolver aplicações de alto desempenho e escaláveis no lado do servidor." },
