@@ -1,6 +1,9 @@
 @use '../variables'
 @use '../mixins'
 
+.technology-info p.sobre
+    text-align: center
+
 .technologies-container
     margin-bottom: 1rem
 
@@ -10,7 +13,9 @@
     gap: 1.5rem
 
     .technology-card
-        @include mixins.center
+        display: flex
+        flex-direction: column
+        align-items: center
         gap: 1rem
         padding: 1rem
         border: 1px solid #333
@@ -20,6 +25,7 @@
     h3
         color: variables.$text-color
         margin-bottom: 1rem
+        text-align: center
 
     svg
         font-size: 6rem
